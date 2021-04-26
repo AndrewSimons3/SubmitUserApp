@@ -4,9 +4,7 @@ import classes from './Button.module.css';
 
 const Button = (props) => {
 
-  const addUserHandler = (event) => {
-    console.log(event.target.value)
-  }
+  
 
   return (
     <button
